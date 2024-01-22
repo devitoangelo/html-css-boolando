@@ -77,11 +77,11 @@ svg {
 }
 
 
-#site_main{
+#site_main {
     width: 70%;
     margin-left: 15rem;
-    
- }
+
+}
 
 
 
@@ -92,38 +92,37 @@ svg {
     display: flex;
     position: relative;
     justify-content: space-evenly
-    
 }
 
 
-.img{
+.img {
     position: relative;
     max-width: 100%;
 }
 
-.web1{
+.web1 {
     position: relative;
     background-image: url(../img/1b.webp);
     background-size: cover;
     display: flex;
 
 
-} 
+}
 
 
-.discount{
+.discount {
     position: absolute;
-    border: 1px solid;
+
     bottom: 2rem;
     background-color: red;
     padding: 2px;
-    width:  50px;
+    width: 50px;
     text-align: center;
     color: white;
-    
+
 }
 
-.character{
+.character {
     background-color: green;
     position: absolute;
     left: 50px;
@@ -133,14 +132,15 @@ svg {
     margin-left: 2px;
     color: white;
     padding: 5px;
+    font-size: 15px;
 }
 
-.brand{
+.brand {
     color: grey;
     margin-top: 31rem;
 }
 
-.product{
+.product {
     font-weight: bold;
     width: 200px;
     font-size: 15px;
@@ -149,13 +149,13 @@ svg {
 }
 
 
-.price{
+.price {
 
-display: flex;
+    display: flex;
 }
 
 
-.price1{
+.price1 {
     color: red;
     margin-right: 8px;
 
@@ -163,35 +163,73 @@ display: flex;
 
 }
 
-.discount1{
+.discount1 {
     opacity: 0.4;
     text-decoration: line-through;
 
 }
 
-  
 
 
 
-.web1:hover{
+
+.web1:hover {
     background-image: url(../img/1.webp);
 
-  }
+}
 
 
-  .img{
+.img {
     width: 19rem;
     position: relative;
-   
-
-
-  }
-    
-
-
-  
 
 
 
+}
 
-    
+.heart{
+position: absolute;
+top: 0;
+right: 0;
+font-size: x-large;
+
+
+}
+
+
+
+
+.web2 {
+    background-image: url(../img/2.webp);
+    width: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.web2:hover{
+    background-image: url(../img/2b.webp);
+}
+
+
+.web3{
+    background-image: url(../img/3.webp);
+    width: 300px;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.web3:hover{
+    background-image: url(../img/3b.webp);
+
+}
+
+
+/* .container2{
+    margin-top: 5rem;
+    width: 100%;
+    height: 30rem;
+} */

@@ -16,7 +16,7 @@
 
 
 .container {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +26,7 @@
 
 .logo {
     height: 35px;
-   
+
 }
 
 
@@ -35,27 +35,163 @@
     list-style: none;
     display: flex;
     align-items: center;
-    color: white;  
+    color: white;
 }
 
 
 
-li{
+li {
     padding: 5px;
-  
+
 }
 
 
-section{
+section {
     display: flex;
     height: 33px;
     width: 10rem;
+
+}
+
+
+
+
+svg {
+    padding: 5px;
+}
+
+.container1 {
+
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+
+.site-main {
+    height: auto;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+
+#site_main{
+    width: 70%;
+    margin-left: 15rem;
+    
+ }
+
+
+
+
+.container1 {
+
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly
     
 }
- 
+
+
+.img{
+    position: relative;
+    max-width: 100%;
+}
+
+.web1{
+    position: relative;
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+    display: flex;
+
+
+} 
+
+
+.discount{
+    position: absolute;
+    border: 1px solid;
+    bottom: 2rem;
+    background-color: red;
+    padding: 2px;
+    width:  50px;
+    text-align: center;
+    color: white;
+    
+}
+
+.character{
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    bottom: 2rem;
+    height: 24px;
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    padding: 5px;
+}
+
+.brand{
+    color: grey;
+    margin-top: 31rem;
+}
+
+.product{
+    font-weight: bold;
+    width: 200px;
+    font-size: 15px;
+
+
+}
+
+
+.price{
+
+display: flex;
+}
+
+
+.price1{
+    color: red;
+    margin-right: 8px;
+
+
+
+}
+
+.discount1{
+    opacity: 0.4;
+    text-decoration: line-through;
+
+}
+
+  
+
+
+
+.web1:hover{
+    background-image: url(../img/1.webp);
+
+  }
+
+
+  .img{
+    width: 19rem;
+    position: relative;
    
 
 
-svg{
-padding: 5px;
-}
+  }
+    
+
+
+  
+
+
+
+
+    
